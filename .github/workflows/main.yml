@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Upload documentation to wiki
-      run: SwiftDocOrg/github-wiki-publish-action@v1
+      uses: SwiftDocOrg/github-wiki-publish-action@v1
       with:
         path: "doc"
       env:
